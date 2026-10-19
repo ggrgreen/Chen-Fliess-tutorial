@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "cfs-tutorial: Bilinear realisations of truncated Chen-Fliess series and path signatures"
+authors:
+  - family-names: Green
+    given-names: Gary
+    affiliation: University of York
+version: 1.0.0
+date-released: 2026-10-19
+license: MIT

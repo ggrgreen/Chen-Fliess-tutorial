@@ -1,0 +1,16 @@
+[project]
+name = "cfs-tutorial"
+version = "1.0.0"
+description = "Bilinear realisations of truncated Chen-Fliess series and path signatures: tutorial code"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Gary Green"}]
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "sympy", "matplotlib", "iisignature"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
